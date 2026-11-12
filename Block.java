@@ -1,6 +1,6 @@
 abstract class Block {
     protected String blockName;
-    protected List<Plot> plots; // Standard List/Array of plots
+    protected List<Plot> plots; 
 
     public Block(String blockName) {
         this.blockName = blockName;

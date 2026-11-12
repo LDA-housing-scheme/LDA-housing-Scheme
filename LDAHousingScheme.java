@@ -1,6 +1,6 @@
 class LDAHousingScheme {
     private String schemeName;
-    private List<Block> blocks; // Standard List/Array of blocks
+    private List<Block> blocks; 
 
     public LDAHousingScheme(String schemeName) {
         this.schemeName = schemeName;
@@ -12,10 +12,8 @@ class LDAHousingScheme {
     }
 
     public void assignPlot(String ownerName, Block block, Plot plot) {
-        // Assign the owner directly to the plot object
         plot.setOwnerName(ownerName);
-        
-        // Print the console output exactly as required
+       
         System.out.println("==================================================");
         System.out.println("===== " + schemeName + " =====");
         System.out.println("==================================================");
