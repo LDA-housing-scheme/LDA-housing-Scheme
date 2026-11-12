@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 abstract class Block {
     protected String blockName;
     protected List<Plot> plots; 

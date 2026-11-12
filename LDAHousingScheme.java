@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 class LDAHousingScheme {
     private String schemeName;
     private List<Block> blocks; 
